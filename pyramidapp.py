@@ -12,6 +12,4 @@ config.add_route('hello', '/hello')
 config.add_view(hello_world, route_name='hello')
 app = config.make_wsgi_app()
 
-def hh():
-	print "sdfsdfsdf"
 

@@ -21,8 +21,7 @@ def grim_reaper(signum, frame):
         
         if pid == 0:
             return
-
-    
+                
     print(
         'Child {pid} terminated with status {status}'
         'n'.format(pid=pid, status=status)

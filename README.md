@@ -1,9 +1,11 @@
 # pythonweb
 simple python web server
 
+使用python实现简单web服务器
 
 ## how to run
 
-1.  python web7.py wsgiapp:app 
-
-2.  python client3.py --max-clients 100
+```shell
+python web7.py wsgiapp:app 
+python client3.py --max-clients 100
+```
